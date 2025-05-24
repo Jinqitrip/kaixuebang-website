@@ -1,0 +1,131 @@
+:root {
+  --vp-c-brand: #6d28d9;
+  --vp-c-brand-light: #8b5cf6;
+  --vp-c-brand-lighter: #a78bfa;
+  --vp-c-brand-dark: #5b21b6;
+  --vp-c-brand-darker: #4c1d95;
+  
+  --vp-c-sponsor: #6d28d9;
+
+  --vp-c-bg-alt: #f9fafb;
+  
+  --vp-font-family-base: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --vp-font-family-mono: "Fira Code", "JetBrains Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.dark {
+  --vp-c-bg-alt: #161618;
+}
+
+.VPHero .text {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.5px !important;
+}
+
+.VPHero .tagline {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+.VPFeature .title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+.VPFeature .details {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+@media (max-width: 640px) {
+  .VPHero .text {
+    font-size: 36px !important;
+  }
+  
+  .VPHero .tagline {
+    font-size: 16px !important;
+  }
+}
+
+/* 自定义导航样式 */
+.VPNav {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.VPNavBar .VPNavBarTitle .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 自定义侧边栏样式 */
+.VPSidebar {
+  padding-top: 24px;
+}
+
+.VPSidebarItem.level-1 .text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.VPSidebarItem.level-2 .text {
+  font-size: 14px;
+}
+
+/* 自定义页脚样式 */
+.VPFooter {
+  border-top: 1px solid var(--vp-c-divider);
+  padding: 24px 0;
+}
+
+/* 自定义内容区域样式 */
+.vp-doc h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.vp-doc h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 36px 0 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 32px 0 16px;
+}
+
+.vp-doc p {
+  margin: 16px 0;
+  line-height: 1.7;
+}
+
+.vp-doc a {
+  text-decoration: none;
+  color: var(--vp-c-brand);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-dark);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 28px;
+  }
+  
+  .vp-doc h2 {
+    font-size: 22px;
+  }
+  
+  .vp-doc h3 {
+    font-size: 18px;
+  }
+}

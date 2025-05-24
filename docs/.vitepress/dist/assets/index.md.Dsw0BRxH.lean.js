@@ -1,0 +1,1 @@
+import{_ as i,c as e,o as l,ae as s}from"./chunks/framework.Cthp9TdA.js";const p=JSON.parse('{"title":"凯学邦 - 自下而上的教育革命","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),d={name:"index.md"};function o(t,a,r,c,n,h){return l(),e("div",null,a[0]||(a[0]=[s("",21)]))}const u=i(d,[["render",o]]);export{p as __pageData,u as default};
