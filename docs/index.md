@@ -1,9 +1,18 @@
 ---
 layout: home
+pageClass: full-width-hero-page
 ---
 
-![](kaixuebang.png)
-<img src="./kaixuebang.png" alt="kaixuebang" width="100%">
+<FullPageHero
+  image-url="./kaixuebang.png"
+  title="凯学邦 - 自下而上的教育革命"
+  subtitle="共享经济 · 俱乐部经济 · 自助学习社区"
+  min-height="80vh"
+>
+
+</FullPageHero>
+
+
 
 ## 教育代际传递不平等的现状 {#background}
 
