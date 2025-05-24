@@ -57,7 +57,7 @@ export default {
       ]
     },*/
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kaixuebang' }
+      { icon: 'github', link: 'https://github.com/Jinqitrip' }
     ],
     footer: {
       message: '凯学邦 - 自下而上的教育革命',
