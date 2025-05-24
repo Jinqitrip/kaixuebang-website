@@ -5,10 +5,19 @@ export default {
     logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
-      { text: '开学帮', link: '/kaixuebang/' },
-      { text: '锦麒行', link: '/jinqixing/' },
-      { text: '校园生活', link: '/campus-life/' },
-      { text: '凯学邦', link: '/kaixuebang-peer/' },
+      {
+        text: '凯学邦项目',
+        items: [
+          { text: '开学帮', link: '/kaixuebang-project/kaixuebang/' },
+          { text: '锦麒行', link: '/kaixuebang-project/jinqixing/' },
+          { text: '校园生活', link: '/kaixuebang-project/campus-life/' },
+          { text: '凯学邦', link: '/kaixuebang-project/kaixuebang-peer/' },
+        ]
+      },
+      { text: '新闻中心', link: 'https://jinqitrip.com.cn/posts.html' },
+      { text: '企业社会责任', link: '/csr' },
+      { text: '成为合作伙伴', link: '/partner' },
+      
     ],
     /*sidebar: {
       '/kaixuebang/': [

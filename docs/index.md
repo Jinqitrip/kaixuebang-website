@@ -2,11 +2,8 @@
 layout: home
 ---
 
-# 凯学邦 - 自下而上的教育革命
-
-## 共享经济 · 俱乐部经济 · 自助学习社区
-
-（上面的内容放在一张海报图里，之后做）
+![](kaixuebang.png)
+<img src="./kaixuebang.png" alt="kaixuebang" width="100%">
 
 ## 教育代际传递不平等的现状 {#background}
 
