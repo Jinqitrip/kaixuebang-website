@@ -61,7 +61,7 @@ export default {
     ],
     footer: {
       message: '凯学邦 - 自下而上的教育革命',
-      copyright: 'Copyright © 2025 凯学邦'
+      copyright: '沪ICP备2024085336号 | Copyright © 2025 by fQwQf. All Rights Reserved.'
     }
   }
 }
